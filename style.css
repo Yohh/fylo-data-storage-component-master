@@ -1,0 +1,50 @@
+body {
+  width: 1440px;
+  margin: auto;
+}
+
+section {
+  margin-top: 5%;
+  height: 800px;
+  background-color: #0c122c;
+  background-image: url(images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.background {
+  display: block;
+  position: absolute;
+  margin-top: 380px;
+  z-index: 0;
+}
+
+.flex-container.elements {
+  display: flex;
+  justify-content: center;
+}
+
+.blocG {
+  background-color: #1e2c69;
+  width: 25%;
+  height: 12rem;
+  margin-right: 2rem;
+  border-radius: 0.5rem 6rem 0.5rem 0.5rem;
+  margin-top: 20%;
+}
+
+.blocD {
+  background-color: #1e2c69;
+  width: 38%;
+  height: 9.5rem;
+  border-radius: 0.5rem;
+  margin-top: 22.8%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
