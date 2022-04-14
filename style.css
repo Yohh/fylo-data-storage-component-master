@@ -1,6 +1,8 @@
 body {
   width: 1440px;
   margin: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
 }
 
 section {
@@ -51,8 +53,8 @@ section {
 }
 
 .iconF {
-    margin-left: 0.8rem;
-    margin-right: 0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .blocD {
@@ -60,7 +62,31 @@ section {
   width: 38%;
   height: 9.5rem;
   border-radius: 0.5rem;
-  margin-top: 22.8%;
+  margin-top: 23%;
+}
+
+.flex-container, .firstL {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.flex-container, .secondL {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.text, .min, .max {
+    color: #c7cffc;
+}
+
+strong {
+    margin-left: 0%;
+    font-weight: bold;
 }
 
 .attribution {
