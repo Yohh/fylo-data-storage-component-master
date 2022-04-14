@@ -33,6 +33,28 @@ section {
   margin-top: 20%;
 }
 
+.logo {
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 7%;
+}
+
+.icons {
+    margin-left: 10%;
+}
+
+.icons * {
+    background-color: #0c122c;
+    border-radius: 0.7rem;
+    height: 1.5rem;
+    padding: 0.8rem;
+}
+
+.iconF {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
 .blocD {
   background-color: #1e2c69;
   width: 38%;
